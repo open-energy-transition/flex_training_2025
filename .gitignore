@@ -1,0 +1,16 @@
+# Ignore entire folders and their contents
+
+csv_folder_path/
+lesson4_csv_folder/
+lesson5_csv_folder/
+lesson6_csv_folder/
+myenv/
+__pycache__/
+
+
+# Ignore hidden files (e.g., .DS_Store on macOS) within the folders
+myenv/**/*
+__pycache__/**/*
+lesson4_csv_folder/**/*
+lesson5_csv_folder/**/*
+lesson6_csv_folder/**/*

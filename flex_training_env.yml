@@ -1,0 +1,16 @@
+name: flex_training_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipywidgets
+  - pypsa
+  - numpy
+  - pandas
+  - plotly
+  - highs
+  - matplotlib
+  - pip
+  - openpyxl 
+  - pip:
+      - jupyterlab
